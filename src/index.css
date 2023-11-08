@@ -14,7 +14,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: flex;
-  background-color: #efefef;
+  background-color: aqua;
   text-align: center;
 
 }
@@ -28,12 +28,14 @@ body {
 
 h1 {
   font-size: 3.2em;
+  color: aqua;
   line-height: 1.1;
 }
 
 button {
   border-radius: 8px;
   border: 1px solid transparent;
+  color: aqua;
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
