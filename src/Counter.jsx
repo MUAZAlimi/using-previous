@@ -2,7 +2,7 @@ import { useState } from "react";
 
 function Counter() {
   const [count, setCount] = useState(0);
-  const [values, setvalues] = useState({
+  const [values, setValues] = useState({
     first: "",
     last: ""
   })
@@ -15,8 +15,8 @@ function Counter() {
     setCount(prev => prev - 1);
   };
   const updateArray = (newVal) => {
-        setvalues({...values, last: "Dave", })
-        setvalues(prev => ({...prev, last: "Muaz"}));
+        setValues({...values, last: "Dave", })
+        setValues(prev => ({...prev, last: "Muaz"}));
   }
   return (
     <section className="Counter">
