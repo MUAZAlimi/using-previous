@@ -7,7 +7,8 @@ function Counter() {
     setCount(prev => prev + 1)
     }
     const subtract = () => {
-        setCount(count - 1)
+        setCount(prev => prev - 1)
+        setCount(prev => prev - 1)
     }
   return (
     <section className="Counter">
