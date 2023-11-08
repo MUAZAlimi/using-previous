@@ -3,11 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 html {
   font-size: 16px;
 }
-
 body {
   min-height: 100vh;
   font-family: 'Open Sans', sans-serif;
@@ -16,21 +14,17 @@ body {
   display: flex;
   background-color: aqua;
   text-align: center;
-
 }
-
 #root {
   flex-grow: 1;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
-
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -50,18 +44,14 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-
 .Counter {
   display: grid;
   gap: 1rem;
 }
-
 .calcBtn {
   display: flex;
   gap: 1rem;
 }
-
-
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
