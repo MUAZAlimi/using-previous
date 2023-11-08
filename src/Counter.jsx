@@ -1,15 +1,15 @@
 import { useState } from "react";
 
 function Counter() {
-    const [count, setCount] = useState(0)
-    const add = () => {
-    setCount(prev => prev + 1)
-    setCount(prev => prev + 1)
-    }
-    const subtract = () => {
-        setCount(prev => prev - 1)
-        setCount(prev => prev - 1)
-    }
+  const [count, setCount] = useState(0);
+  const add = () => {
+    setCount(prev => prev + 1);
+    setCount(prev => prev + 1);
+  };
+  const subtract = () => {
+    setCount(prev => prev - 1);
+    setCount(prev => prev - 1);
+  };
   return (
     <section className="Counter">
       <h1>{count}</h1>
@@ -17,11 +17,11 @@ function Counter() {
         <button onClick={add}>+</button>
         <button onClick={subtract}>-</button>
       </div>
-        <div>
+      <div>
         <button onClick={() => setCount(0)}>Reset</button>
-        </div>
+      </div>
     </section>
-  )
+  );
 }
 
-export default Counter
+export default Counter;
