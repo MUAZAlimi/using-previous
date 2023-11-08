@@ -11,7 +11,7 @@ function Counter() {
     setCount(prev => prev - 1);
     setCount(prev => prev - 1);
   };
-  const updateArray = () => {
+  const updateArray = (newVal) => {
 
   }
   return (
