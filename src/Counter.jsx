@@ -3,8 +3,8 @@ import { useState } from "react";
 function Counter() {
   const [count, setCount] = useState(0);
   const [values, setvalues] = useState({
-    firstName: "",
-    lastName: ""
+    first: "",
+    last: ""
   })
   const add = () => {
     setCount(prev => prev + 1);
