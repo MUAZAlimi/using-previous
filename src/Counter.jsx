@@ -16,7 +16,7 @@ function Counter() {
   };
   const updateArray = (newVal) => {
         setvalues({...values, last: "Dave", })
-        setCount(prev => ({...prev, last: "Muaz"}));
+        setvalues(prev => ({...prev, last: "Muaz"}));
   }
   return (
     <section className="Counter">
