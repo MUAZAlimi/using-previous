@@ -18,6 +18,7 @@ function Counter() {
         setValues({...values, last: "Dave", })
         setValues(prev => ({...prev, last: "Muaz"}));
   }
+  console.log(values)
   updateArray()
   return (
     <section className="Counter">
