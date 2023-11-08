@@ -10,6 +10,9 @@ function Counter() {
     setCount(prev => prev - 1);
     setCount(prev => prev - 1);
   };
+  const updateArray = () => {
+    
+  }
   return (
     <section className="Counter">
       <h1>{count}</h1>
